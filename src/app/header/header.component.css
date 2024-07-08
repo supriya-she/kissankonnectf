@@ -1,0 +1,176 @@
+a{
+    font-size: medium;
+}
+span{
+    color: black;
+    font-size: medium;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+     /* background: #000;  */
+} 
+
+.search {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    bottom: 0px;
+    top: 20px;
+    right:130px;
+    
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    /* border: none; */
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(226, 252, 226)}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+  
+
+
+.nav h2 {
+    color: blueviolet;
+    margin: 0;
+    font-size: 40px;
+}
+
+.nav ul {
+
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+
+    .nav .nav-search  {
+        margin-top: 5px;
+        flex: 1;
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .nav .nav-search input {
+        flex: 1;
+        color: blueviolet;
+        border: 1px solid blueviolet;
+        height: 39px;
+        border-right: 0px;
+    }
+
+
+}
+
+.nav .nav-search button {
+
+    color: blueviolet;
+    border: 1px saddlebrown;
+    height: 39px;
+    border-left: 0px;
+}
+input[class=form-control]{
+    padding: 15;
+}
+.nav img{
+    left: 0px;
+}
+
+
+/* @media (max-width:1080px){
+    .row{
+      width: 100%
+      
+    }  
+    .row{
+        height: 100%;
+    }
+  
+  }
+  
+  
+  @media (min-width:450px){
+      .row{
+          width: 70%
+        }  
+   
+        .row{
+            height: 70%;
+        }
+       
+  } */

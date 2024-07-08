@@ -1,0 +1,137 @@
+
+    /* *::after,
+    *::before {
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+
+section {
+    
+     min-height: 90vh; 
+     min-width: 95vw; 
+    
+
+    overflow: hidden;
+    background-color: rgb(249,249,255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    height: 100vh; 
+    display: flex;
+    margin:10px 20px;
+    padding: 10px 20px;
+    justify-content: flex-end;
+    align-items: center ;
+    flex-direction: column;
+    min-height: 90vh; 
+     min-width: 95vw; 
+     
+     position: relative;
+     left:1px;
+     top:400px;
+     
+     right: 0px;  
+align-self: normal;
+display: flex;
+flex: 100;
+     
+     
+
+    
+} 
+
+
+.row {
+                                                                 
+    width: 60vw;
+    display: flex;
+    
+    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.col {
+    height: 350px;
+    width: 350px;
+    
+    margin:30px 20px;
+    border: 1px solid #ccc;
+    
+    
+    
+}
+
+.imgcontainer img {
+    height: 120px;
+    
+    
+    
+                                                    
+}
+
+::placeholder{
+    color: black;
+}
+
+input[type=text]{
+    padding: 15px;
+    
+}
+
+input[type=password]{
+    padding: 15px ;
+}
+
+h4{
+    color: red;
+    font-size: small;
+    
+}
+h5{
+    color: black;
+    background-color: yellow;
+    
+}
+.button-container .button{
+    display: inline-block;
+    text-align: right;
+}
+ .card-footer{
+position: relative;
+ }
+ 
+
+@media (max-width:1080px){
+  .row{
+    width: 100%
+    
+  } 
+  
+  
+
+}
+
+
+@media (max-width:450px){
+    .row{
+        width: 70%
+      }  
+
+      
+     
+}
+
+ 
+
+
+  
